@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item>
+        <shape android:shape="rectangle">
+            <corners
+                android:topLeftRadius="@dimen/search_view_corner_radius"
+                android:topRightRadius="@dimen/search_view_corner_radius" />
+            <solid android:color="@color/suggestion_list_color" />
+        </shape>
+    </item>
+
+</layer-list>
